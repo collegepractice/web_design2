@@ -46,7 +46,7 @@ ul {
 list-style-type: none;
 }
 section {
-    width: 320px;
+    width: auto;
     background-color: lavender;
 }
 article {
@@ -93,7 +93,6 @@ img {
         float: left; 
     }
     section {
-       width: 768px;
        display: block; 
     }
     section h2 {
@@ -112,7 +111,53 @@ img {
 }
 
 @media (min-width: 1023px) {
-    {
+    .logo {
+        display: block;
+        max-width: 75px;
+        margin: auto;
+        padding: 10px;
         
+    }
+    nav {
+        height: 100px;
+    }
+    nav h1 {
+        margin: auto;
+        font-family: 'Creepster', cursive;
+        font-size: 55px;
+        text-align: left;
+        color: rgb(218, 17, 110);
+        float: left;
+        padding: 25px;
+    }
+    li {
+        float: right;
+        padding: 30px;
+        text-align: center;
+    }
+    nav ul {
+        font-size: 20px;
+    }
+    section {
+        overflow: hidden;
+    }
+    article {
+        display: block;
+    }
+    article img {
+        width: 20%;
+    }
+    .bjork p {
+        margin: 10px;
+    }
+    .bjork article {
+        float: left;
+    }
+    .melvins p{
+        margin: 10px;
+    }
+    div {
+        width: 50%;
+        float: left;
     }
 }
