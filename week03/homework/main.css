@@ -2,35 +2,64 @@ body {
     margin: 0px;
 }
 header{
-    background-color: #ffffff;
+    background-color: #f7f5f3;
 }
 img.nav-logo {
     max-width: 100%;
     width: 90px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 img.toggle-img {
-    width: 90px;
+    width: 80px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px
 }
 input#Toggle {
     display: none;
 }
 label [for=Toggle]{
-    float: left;
+    float: right;
 }
 input#Toggle:checked + ul {
     display: block;
 }
 nav ul {
     list-style: none;
-    margin: 0px;
+    margin: 10px;
     padding: 20px 0px 0px;
     display: none;  
 }
+nav ul li {
+    padding: 10px 0px;
+    border-bottom: 2px dotted #CDE5D7;
+}
+nav ul li:last-child {
+    border-bottom: none;
+}
+nav ul a {
+  color: #b3d9ff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
 
-
-
-
-
-font-family: 'Montserrat', sans-serif;
+@media (min-width: 768px) {
+img.nav-logo {
+    width: 200px;
+}
+img.toggle-img {
+    width: 170px;
+}
+nav ul a {
+    font-size: 100px;
+}
+nav ul {
+    text-align: center;
+    letter-spacing: 10px;
+}
+}
 
 font-family: 'Raleway', sans-serif;
