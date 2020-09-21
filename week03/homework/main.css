@@ -47,19 +47,44 @@ nav ul a {
 }
 
 @media (min-width: 768px) {
-img.nav-logo {
-    width: 200px;
+    img.nav-logo {
+        width: 200px;
+    }
+    img.toggle-img {
+        width: 170px;
+    }
+    nav ul a {
+        font-size: 100px;
+    }
+    nav ul {
+        text-align: center;
+        letter-spacing: 10px;
+    }
 }
-img.toggle-img {
-    width: 170px;
-}
-nav ul a {
-    font-size: 100px;
-}
-nav ul {
-    text-align: center;
-    letter-spacing: 10px;
-}
+@media (min-width: 1023px) {
+    img.nav-logo {
+        width: 90px;
+    }
+    label[for=Toggle]{
+        display: none;
+    }
+    nav ul {
+        display: block;
+        float: right;
+        padding: 0px;
+    }
+    nav ul a {
+        font-size: 40px;
+        letter-spacing: 0px;
+        text-align: none;
+
+    }
+    nav ul li {
+        border: none;
+        display: inline-block;
+        margin-right: 10px;
+        padding: 10px 0px;
+    }
 }
 
 font-family: 'Raleway', sans-serif;
