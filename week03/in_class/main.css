@@ -15,9 +15,8 @@ img.toggle-img {
 input#Toggle {
     display:none;
 }
-label [for="Toggle"]{
-   float: right;
-   display: none;  
+label[for=Toggle] {
+   float: right; 
 }
 input#Toggle:checked + ul {
     display: block;
@@ -41,16 +40,19 @@ nav ul a {
     text-transform: uppercase;
     font-size: 20px;
 }
-@media (min-width: 768px){
-    label[for="Toggle"]{
+@media(min-width: 768px){
+    label[for=Toggle]{
         display: none;
     }
     nav ul {
         display: block;
+        float: right;
+        padding: 0px;
     }
     nav ul li {
         border: none;
+        display: inline-block;
+        margin-right: 20px;
+        padding: 10px 0px;
     }
-    display: inline-block;
-    margin-right: 20px;
 }
