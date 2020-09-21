@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+}
+header{
+    background-color: #ffffff;
+}
+img.nav-logo {
+    max-width: 100%;
+    width: 90px;
+}
+img.toggle-img {
+    width: 90px;
+}
+input#Toggle {
+    display: none;
+}
+label [for=Toggle]{
+    float: left;
+}
+input#Toggle:checked + ul {
+    display: block;
+}
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 20px 0px 0px;
+    display: none;  
+}
+
+
+
+
+
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Raleway', sans-serif;
