@@ -1,0 +1,26 @@
+.black-bg {
+    background-color: rgb(10,16,13);
+}
+
+.darkgray-bg {
+    background-color: rgb(185,186,163);
+}
+
+.lightgray-bg {
+    background-color: rgb(214, 213, 201);
+}
+
+.red {
+    background-color: rgb(162, 44, 41);
+}
+
+.darkred {
+    background-color: rgb(144, 41, 35);
+}
+
+.black-tx {
+    color: rgb(10,16,13);
+}
+.red-tx {
+    color:  rgb(162, 44, 41);
+}
