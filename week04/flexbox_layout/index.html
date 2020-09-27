@@ -4,24 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet"> 
     <link href="main.css" rel="stylesheet">
     <title>Layout with flex</title>
 </head>
 <body>
     <header class="lightgray-bg">
-        <nav>
+        <nav class="flex">
             <a href="#"><img src="https://www.revolvermag.com/sites/all/themes/sloth/logo.svg" alt="navigation logo"></a>
-            <ul>
-                <li><a href="#">Music</a></li>
-                <li><a href="#">Video</a></li>
-                <li><a href="#">Magazine</a></li>
-                <li><a href="#">Subscribe</a></li>
+            <ul class="flex">
+                <li><a href="#"class="red-tx">Music</a></li>
+                <li><a href="#" class="red-tx">Video</a></li>
+                <li><a href="#" class="red-tx">Magazine</a></li>
+                <li><a href="#" class="red-tx">Subscribe</a></li>
             </ul>
         </nav>
     </header>
     <main>
-
+        <section class="flex2">
+            <div><a href=""><img src="https://www.revolvermag.com/sites/default/files/styles/image_954_x_537/public/media/images/article/pantera_credit_joegiron.jpg?itok=l_QFJEOL&timestamp=1586805005" alt="Pantera" ></a>
+            <p class="lightgray-tx">Pantera</p>
+            </div>
+            <div><a href=""><img src="https://www.revolvermag.com/sites/default/files/styles/image_954_x_537/public/media/images/article/trentreznor_credit_johncrawford_0.jpg?itok=QTkCy4np&timestamp=1576609218" alt="Trent Reznor"></a>
+            <p class="lightgray-tx">Nine Inch Nails</p>
+            </div>
+            <div><a href=""><img src="https://www.revolvermag.com/sites/default/files/styles/image_954_x_537/public/media/images/article/slayer_featured.jpg?itok=TBpFoKYb&timestamp=1571094629" alt="Slayer"></a>
+            <p class="lightgray-tx">Slayer</p>
+            </div>
+            <div><a href=""><img src="https://www.revolvermag.com/sites/default/files/styles/image_954_x_537/public/media/images/article/tool_credit_travisshinn.jpg?itok=Qw9kCmEw&timestamp=1563813741" alt="Tool"></a>
+            <p class="lightgray-tx">Tool</p>
+            </div>
+            <div><a href=""><img src="https://www.revolvermag.com/sites/default/files/styles/image_954_x_537/public/media/images/article/halford1600.jpg?itok=O95a1Bf5&timestamp=1517861704&c=92d4a68efec566a4d792774e86f94cb7" alt="Rob Halford"></a>
+            <p class="lightgray-tx">Judas Priest</p>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="lightgray-bg"></footer>
 </body>
 </html>

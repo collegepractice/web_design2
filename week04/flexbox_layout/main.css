@@ -1,7 +1,10 @@
 @import url("colors.css");
+@import url("navbar.css");
+@import url("section.css");
 
 body {
     margin: 0px;
+    background-color: black;
 }
 img {
     max-width: 100%;

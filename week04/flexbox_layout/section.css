@@ -1,0 +1,33 @@
+.flex2 {
+    display: flex;
+    flex-direction: column;
+}
+p{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    display: none;
+    margin-top: 0px;
+}
+div img {
+    width: 200px;
+}
+@media(min-width: 768px) {
+    .flex2 {
+        flex-direction: row;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+    div img {
+        display: flex;
+        flex: 1;
+    }
+    div img:nth-child(3) {
+        flex:2;
+    }
+    p {
+        display: block;
+        align-items: baseline;
+    }
+    
+}
