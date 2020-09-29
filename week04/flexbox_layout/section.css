@@ -1,4 +1,4 @@
-.flex2 {
+section {
     display: flex;
     flex-direction: column;
 }
@@ -9,25 +9,22 @@ p{
     display: none;
     margin-top: 0px;
 }
-div img {
-    width: 200px;
-}
 @media(min-width: 768px) {
-    .flex2 {
+    section {
         flex-direction: row;
         align-content: flex-start;
         flex-wrap: wrap;
     }
-    div img {
-        display: flex;
+    article {
         flex: 1;
     }
-    div img:nth-child(3) {
+    article:nth-of-type(3) {
         flex:2;
     }
     p {
         display: block;
         align-items: baseline;
     }
+
     
 }
