@@ -13,23 +13,21 @@
 .grid-item:last-child {
     grid-row: 3 / span 2;
 }
-.grid-containter-power {
+.grid-container-power {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
 }
 .grid-item-power {
     height: 200px;
 }
 /* starting with iPad and larger */
-@media (min-width 768px){
-    .grid-containter {
+@media (min-width: 768px){
+    .grid-container {
         grid-template-columns: 100px auto 100px;
         grid-template-rows: repeat(3, 1fr);
-        
         height: 500px;
-        width: 800px;
-        margin: auto;
+       
     }
     .grid-item:nth-child(3) {
         grid-row: 1 / span 2;
@@ -44,7 +42,9 @@
         grid-row: initial;
     }
 }
-@media(min-width 820px) {
-   width: 800px;
-   margin: auto; 
+@media (min-width: 820px) {
+    .grid-container { 
+        width: 800px;
+        margin: auto; 
+    }
 }
