@@ -18,7 +18,38 @@
 .grid-item:last-child {
     grid-column: 1 / 3 span;
 }
+.grid-item:nth-child(1){
+    background-image: url("barbie_01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.grid-item:nth-child(2) {
+    background-image: url("barbie_02.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    font-family: helvetica;
+    font-size: 23px;
 
+}
+.grid-item:nth-child(3){
+    background-image: url("barbie_03.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-top: ;
+    font-family: helvetica;
+    font-size: 23px;
+}
+.grid-item:last-child {
+    background-image: url("barbie_04.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+img { 
+    max-width: 100%;
+}
 /* starting with iPad and larger */
 @media (min-width: 768px) {
     .grid-container {
